@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Game</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<script src="./game.js"></script>
+</head>
+<body id="">
+    <nav>
+       <h1>Tic Tac Toe Game</h1>
+    <button id="settingsBtn"><i class="settings-icon bi-gear"></i></button> 
+    <aside class="settings">
+        <ul>
+            <li class="sounds"><p>Sound On </p>
+                <label class="switch">
+                    <input id="checkboxA" type="checkbox" checked>
+                    <span class="slider"></span>
+                  </label>
+                  <li class="screen"><p>Fullscreen</p>
+                    <label class="switch">
+                        <input id="checkboxB" type="checkbox">
+                        <span class="slider"></span>
+                      </label>
+                  <li class="dark-mode"><p>Dark Mode</p>
+                    <i class="icons bi-moon-stars"></i></li>
+            <li class="about"><p>About Us</p>
+                <i class="icons bi-info-circle"></i></li>
+           
+        </ul>
+    </aside>
+    </nav>
+    <section class="container">
+    <div class="scores">
+        <span>Scores:</span>
+        <div id="xp">X : 00</div>
+        <div id="op">O : 00</div>
+    </div>
+    <div class="xo">
+        <div id="X">X</div>
+        <div id="O">O</div>
+    </div>
+</section>
+    <h2>players throw/winner announce</h2>
+    <section class="content">
+        <div class="grid">
+                <!--[game board]-->
+        </div>
+    <div class="buttons">
+        <button id="user">1 v 1</button>
+        <button id="computer">Computer</button>
+        <button id="restart">Restart</button>
+    </div>
+    </section>
+    <footer>Copyright @ Athul 2024</footer>
+       <!-- [about] -->
+       <div id="about-us">
+        <h3>About us</h3>
+        <button><i class="bi bi-x"></i></button>
+        <p>Name: <span style="color: rgb(95, 95, 95);">Tic Tac Toe Game.</span></p>
+        <p>Version: <span style="color: rgb(95, 95, 95);">1.0.0</span></p>
+        <p>Developer: <span style="color: rgb(95, 95, 95);">Athul P S</span></p>
+        <h4>follow Us On</h4>
+        <a href="https://www.instagram.com/d9.coder" style="color: rgb(172, 43, 118);"><i class="bi bi-instagram"></i> Instagram</a>
+        <a href="https://github.com/psathul073" style="color: rgba(78, 78, 113, 0.956);"><i class="bi bi-github"></i> Github</a>
+    </div>
+</body>
+</html>
